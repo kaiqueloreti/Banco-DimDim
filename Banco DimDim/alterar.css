@@ -1,0 +1,52 @@
+body {
+    background: rgb(0, 0, 0);
+ }
+
+#senha {
+    width: 200px; 
+    height: 300px; 
+    background: linear-gradient(to bottom, #0032d8a8, #1e035e98); 
+    border: 2px solid #1172DF;
+    margin: 10px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+
+#input {
+    background-color: #03084b; 
+        border-radius: 10px; 
+        border: 2px solid #7D3C98; 
+        padding: 10px; 
+        width: 150px;
+        margin-left: 15px;
+}
+
+h1{
+    margin-left: 15px;
+    font-size: 15px;
+    color: #c50fe9;
+}
+#botão { 
+    margin-left: 45px;
+    padding: 10px 25px; 
+    border: 2px solid #7D3C98;
+    border-radius: 10px; 
+    background-color: #03084b; 
+    color: #fff; 
+    cursor: pointer; 
+    font-size: 16px; 
+ }
+
+ #botão2{ 
+    margin-left: 45px;
+    padding: 10px 30px; 
+    border: 2px solid #7D3C98;
+    border-radius: 10px;
+    background-color: #03084b; 
+    color: #fff; 
+    cursor: pointer; 
+    font-size: 16px;
+ }

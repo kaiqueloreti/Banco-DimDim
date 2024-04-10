@@ -1,0 +1,87 @@
+body {
+    background: rgb(0, 0, 0);
+ }
+
+
+#barra {
+    width: 1350px; 
+    height: 45px; 
+    background-color: #1172DF;
+    border-radius: 10px;
+    display: flex;
+    flex: 1;
+    text-align: center;
+    background-color:#004D40;
+} 
+
+#login {
+
+    width: 240px; 
+    height: 230px; 
+    background: linear-gradient(to bottom, #0032d8a8, #1e035e98);
+    border: 2px solid #1172DF;
+    margin: 10px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+ }
+ h1 {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    animation: brilho 2s linear infinite;    
+ }
+ h2 {
+    color: #ffffff;
+    font-size: 14px;
+    margin-left: 70px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+ #input{
+    background-color: #03084b; 
+    border-radius: 10px;
+    border: 2px solid #7D3C98; 
+    padding: 10px; 
+    width: 210px;
+ }
+ @keyframes brilho {
+    0% {
+        color: #b700ff; 
+        text-shadow: 0 0 10px #b300ff; 
+    }
+    50% {
+        color: #A6509C; 
+        text-shadow: 0 0 20px #d614bc; 
+    }
+    100% {
+        color: #d614bc; 
+        text-shadow: 0 0 10px #b700ff;
+    }
+}
+#botão { 
+    padding: 10px 20px; 
+    border: 2px solid #7D3C98;
+    border-radius: 10px;
+    background-color: #03084b; 
+    color: #fff; 
+    cursor: pointer; 
+    font-size: 16px; 
+
+}
+
+#botão2 { 
+    padding: 10px 20px; 
+    border: 2px solid #7D3C98;
+    border-radius: 10px;
+    background-color: #03084b; 
+    color: #ffffff; 
+    cursor: pointer; 
+    font-size: 16px;
+
+}
+
+
+
+
+
+
